@@ -1,0 +1,23 @@
+name: RewardPlugin
+version: 1.0
+main: com.ma4z.rewardplugin.RewardPlugin
+api-version: 1.21
+author: ma4z
+commands:
+  new-reward:
+    description: Create a new reward
+    usage: /new-reward <Name> <Description> <Action> <Requirement> <Details> <ID>
+    permission: rpl4z.staff
+  delete-reward:
+    description: Delete a reward by ID
+    usage: /delete-reward <ID>
+    permission: rpl4z.staff
+  edit-reward:
+    description: Edit an existing reward
+    usage: /edit-reward <ID>
+    permission: rpl4z.staff
+permissions:
+  rpl4z.staff:
+    description: Access to reward plugin commands
+    default: op
+depend: [Vault, LuckPerms]

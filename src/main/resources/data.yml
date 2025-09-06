@@ -1,0 +1,10 @@
+rewards:
+  # Example reward
+  # 1:
+  #  name: "Mine 100 Diamond"
+  #  description: "Reward for mining 100 diamonds"
+  #  action: "ADD-MONEY"
+  #  requirement: "mine_block"
+  # details:
+  #   type: "DIAMOND_ORE"
+  #   amount: 100
